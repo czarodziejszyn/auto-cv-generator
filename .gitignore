@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+output/
+*.pdf
+*.tex
+*.aux
+*.log
+*.out

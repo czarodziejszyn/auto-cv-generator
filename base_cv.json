@@ -1,0 +1,70 @@
+{
+  "personal_info": {
+    "name": "Szymon Ryszka",
+    "title": "AI Engineer | Computer Science Graduate",
+    "email": "ryszka.szymon@icloud.com",
+    "phone": "+48 663 579 481",
+    "github": "github.com/czarodziejszyn"
+  },
+  "skills": {
+    "programming": ["Python", "C++", "C"],
+    "ai_ml": ["Neural Networks", "Computer Vision", "Deep Learning", "Transformers", "Metaheuristic Optimization", "MLOps"],
+    "libraries": ["PyTorch", "TensorFlow", "scikit-learn", "NumPy", "Pandas", "LightGBM", "OR-Tools"],
+    "tools": ["Linux", "Git", "Docker", "GitHub Actions", "CI/CD"],
+    "languages": ["English C1", "Polish (Native)", "Spanish A2"],
+    "additional": ["SQL", "Assembly", "Java"]
+  },
+  "experience": [
+    {
+      "role": "AI Trainer",
+      "company": "DataAnnotation",
+      "date": "05/2026 - Present",
+      "description": "Contributed to the training of agentic coding models by creating complex training examples and assessing model performance."
+    },
+    {
+      "role": "Intern",
+      "company": "Polskie Sieci Elektroenergetyczne S.A.",
+      "date": "08/2025 - 09/2025",
+      "description": "Implemented machine learning model, including data preprocessing."
+    },
+    {
+      "role": "Intern",
+      "company": "SPLAST SP. Z O.O.",
+      "date": "07/2024 - 08/2024",
+      "description": "Developed an application integrating a database with a machine learning model."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Science - Specialization in Artificial Intelligence",
+      "university": "Warsaw University of Technology",
+      "date": "10/2022 - 03/2026"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Auto-FPL Manager - Autonomous MLOps Pipeline",
+      "description": "Developed an end-to-end MLOps agent for Fantasy Premier League squad optimization. Built an automated ETL pipeline and time-series feature engineering system. Trained a LightGBM regressor to predict expected points (xP) and implemented Mixed-Integer Linear Programming (MILP) using Google OR-Tools for squad selection under budget constraints. Containerized with Docker and orchestrated continuous training via GitHub Actions."
+    },
+    {
+      "name": "Engineering Thesis - Human activity recognition in video based on deep neural networks",
+      "description": "Implemented Spatial-Temporal Transformer architecture from scratch for human action recognition problem. Independently implemented skeleton data preprocessing pipeline, trained and evaluated the model on the NTU RGB+D dataset, covering 120 activity classes."
+    },
+    {
+      "name": "Music Listening Duration Prediction",
+      "description": "Developed a Python-based machine learning model for predicting music listening duration and deployed it as Flask service."
+    },
+    {
+      "name": "Google Hashcode Final 2018 Solution",
+      "description": "Developed a Python-based heuristic solution to an optimization problem involving city planning."
+    },
+    {
+      "name": "Dance Teaching Application",
+      "description": "Developed a real-time Python application using pose estimation to compare user's movements with those of a professional dancer based on joint angles."
+    },
+    {
+      "name": "Warsaw Housing Prices Application",
+      "description": "Developed a Python-based web application using a machine learning model to predict property prices based on location and surrounding infrastructure data retrieved from external APIs."
+    }
+  ]
+}
